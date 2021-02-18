@@ -11,6 +11,12 @@ All notable changes to this project will be documented in this file.
 - Autogenerate c_cpp_properties.json with all complier arguments and libraries for IntelliSense
 - Detects available programmers for selected board
 - Unifies all build commands under a single function
+## Version 0.3.5
+
+- Release date: November 22, 2020
+
+### Fixes
+- Update to node-usb-native 0.0.19
 
 ## Version 0.3.4
 
