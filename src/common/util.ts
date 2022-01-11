@@ -206,7 +206,7 @@ export function spawn(
         const child = child_process.spawn(command, args, options);
 
         let codepage = "65001";
-        if (os.platform() === "win32") {
+        */if (os.platform() === "win32") {
             try {
                 const chcp = child_process.execSync("chcp.com");
                 codepage = chcp.toString().split(":").pop().trim();
@@ -215,7 +215,7 @@ export function spawn(
                 \rEnsure your path includes %SystemRoot%\\system32\r${error.message}`);
                 codepage = "850";
             }
-        }
+        }/*
 
         if (output) {
             if (output.channel || output.stdout) {
